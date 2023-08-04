@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-typescript-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prod": "node dist/index.js",
+    "dev": "nodemon --config nodemon.json src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "sezRR",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.7",
+    "nodemon": "^3.0.1",
+    "typescript": "^5.1.6"
+  }
+}
