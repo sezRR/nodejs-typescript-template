@@ -1,3 +1,3 @@
-import { helloWorld } from "./helloWorld.js"
+import { helloWorld } from './helloWorld';
 
-helloWorld()
+helloWorld();

@@ -1,6 +1,6 @@
 # Node.js with TypeScript Template
 
-This repository serves as a template for setting up a Node.js project with TypeScript. It includes configuration files for `tsconfig.json`, `package.json`, and `nodemon.json` to help users get started quickly.
+This repository serves as a modern template for setting up a Node.js project with TypeScript. It uses modern tooling including tsx for fast development with hot reload.
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ To run the project in development mode with automatic code reloading, use:
    npm run dev
    ```
 
-This command uses [nodemon](https://nodemon.io/) to watch for changes in the `src/` directory and restarts the server accordingly.
+This command uses [tsx](https://github.com/privatenumber/tsx) in watch mode to automatically reload your application when files change. tsx is a modern, blazing-fast TypeScript execution engine built on esbuild.
 
 ### Build
 
@@ -71,6 +71,5 @@ This command executes the compiled `index.js` file from the `dist/` directory.
 
 ## Configuration Files
 
-- `tsconfig.json`: TypeScript compiler configuration.
+- `tsconfig.json`: TypeScript compiler configuration using modern bundler module resolution.
 - `package.json`: Project metadata and script definitions.
-- `nodemon.json`: Nodemon configuration for development.
